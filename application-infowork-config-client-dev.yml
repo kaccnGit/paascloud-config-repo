@@ -1,0 +1,9 @@
+zipkin:
+  collector:
+    rabbitmq:
+      addresses: 127.0.0.2:5672
+      username: guest
+      password: guest
+      queue: zipkin
+  storage:
+    type: mysql
